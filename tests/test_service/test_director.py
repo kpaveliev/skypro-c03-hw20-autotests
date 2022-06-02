@@ -51,9 +51,9 @@ class TestDirectorService:
         d1 = {'id': 1, 'name': 'New Name'}
         self.director_service.update(d1)
 
-    def partial_update(self):
+    def test_partial_update(self):
         d1 = {'id': 1, 'name': 'New Name'}
         self.director_service.update(d1)
 
-    def delete(self):
+    def test_delete(self):
         self.director_service.delete(1)
